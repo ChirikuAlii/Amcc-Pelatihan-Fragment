@@ -1,9 +1,12 @@
-package chrikualii.info.catalogmovie;
+package chrikualii.info.catalogmovie.ui;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import chrikualii.info.catalogmovie.R;
+import chrikualii.info.catalogmovie.adapter.ViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onTabReselected(TabLayout.Tab tab) { }
         });
+
+
 
 
     }

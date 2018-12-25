@@ -1,8 +1,11 @@
-package chrikualii.info.catalogmovie;
+package chrikualii.info.catalogmovie.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+
+import chrikualii.info.catalogmovie.ui.NowPlayingFragment;
+import chrikualii.info.catalogmovie.ui.UpcomingFragment;
 
 /**
  * Created by chirikualii on 13/12/18
